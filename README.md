@@ -1,2 +1,3 @@
 # JS-Projects
-This a repo where I'll be dropping my web development scripts, ps. these do not have any significance and is merely for my own personal practice reasons
+This a repo where I'll be messing around with web development scripts.
+> **Note**: these do not have any significance and are merely for my own personal practice reasons.
