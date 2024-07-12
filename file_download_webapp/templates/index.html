@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <h1>Welcome to our website!</h1>
+    <form method="post" onsubmit="submitForm(event);">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" pattern="[a-zA-Z\s]+" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="\d{10}" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
